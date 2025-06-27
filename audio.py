@@ -25,7 +25,7 @@ def listen_and_respond():
             response = client.chat.completions.create(
                 model="gpt-4",
                 messages=[
-                    {"role": "system", "content": "You are a red team interview assistant. Answer briefly, clearly, and professionally."},
+                    {"role": "system", "content": ""},
                     {"role": "user", "content": question}
                 ]
             )
