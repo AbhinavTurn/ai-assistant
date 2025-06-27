@@ -1,4 +1,5 @@
 # ai-assistant
+****Tool Under beta version: working on bugs and response**
 
 Install a Python packages:
 pip install openai speechrecognition pyttsx3 pyaudio
